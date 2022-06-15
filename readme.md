@@ -1,5 +1,7 @@
 Docker:
 --------------
+nodejs application with mongodb for persistence with docker.
+--
 Dockerfile:
     - To containerize own application
     - FROM, ADD, COPY, RUN, CMD
@@ -23,6 +25,4 @@ docker-compose.yaml:
             -MONGO_INITDB_ROOT_PASSWORD=password
 
 Execute: 'docker-compose -f mongo.yaml up'
-
-
 ECR: Elastic Container Registry.
